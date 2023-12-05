@@ -44,11 +44,11 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://DHANUSH:DHANUSH@cluster0.2dppahj.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "DHANUSH")
+DATABASE_NAME = environ.get('DATABASE_NAME', "DHANUSH") 
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'cb4c61dbfb6bc7b23011c6bb84fbc79e5a3fb105')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
